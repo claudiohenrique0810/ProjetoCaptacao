@@ -72,12 +72,12 @@ function mostrarValidacao(){
             modal.style.backgroundColor = "#FA8072";
             document.querySelector("#modal").innerHTML = `
             <p>
-                Digite seu nome completo e seu email corretamente!
+                Digite seu nome completo sem acento e seu email corretamente!
             </p>
             `
         }
         else{
-            alert("Digite seu nome completo e seu email corretamente!")
+            alert("Digite seu nome completo sem acento e seu email corretamente!")
         }
         
     }
